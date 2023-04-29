@@ -16,6 +16,7 @@ pub fn App(cx: Scope) -> impl IntoView {
         // id=leptos means cargo-leptos will hot-reload this stylesheet
         <Stylesheet id="leptos" href="/pkg/leptos_start.css"/>
 
+
         // sets the document title
         <Title text="Welcome to Leptos"/>
 
@@ -99,7 +100,7 @@ pub fn Fetch(cx: Scope) -> impl IntoView {
 
     view! { cx,
         <div>
-            {msg_view}
+            <p class="text-red-600">{msg_view}</p>
         </div>
     }
 }
