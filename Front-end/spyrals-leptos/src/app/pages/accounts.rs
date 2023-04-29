@@ -1,5 +1,5 @@
 use leptos::*;
-use leptos_meta::{Title, TitleProps, provide_meta_context};
+use leptos_meta::{Title, TitleProps};
 
 #[component]
 pub fn Register(cx: Scope) -> impl IntoView {

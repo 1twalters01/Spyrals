@@ -14,3 +14,11 @@ pub fn LandingPage(cx: Scope) -> impl IntoView {
         <button on:click=on_click>"Click Me: " {count}</button>
     }
 }
+
+#[component]
+pub fn Home(cx: Scope) -> impl IntoView {
+    view! { cx,
+        <Title text="Home"/>
+        <h1>"Home"</h1>
+    }
+}
