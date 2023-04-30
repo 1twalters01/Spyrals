@@ -42,6 +42,14 @@ pub fn Logout(cx: Scope) -> impl IntoView {
 }
 
 #[component]
+pub fn ForgotUsername(cx: Scope) -> impl IntoView {
+    view! { cx,
+        <Title text="Forgot username"/>
+        <h1>"Forgot username"</h1>
+    }
+}
+
+#[component]
 pub fn PasswordReset(cx: Scope) -> impl IntoView {
     view! { cx,
         <Title text="Password Reset"/>

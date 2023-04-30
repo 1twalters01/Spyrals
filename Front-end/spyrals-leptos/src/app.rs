@@ -33,6 +33,7 @@ pub fn App(cx: Scope) -> impl IntoView {
                     <Route path="account/login/" view=|cx| view! { cx, <Login/> }/>
                     <Route path="account/oauth/:id/" view=|cx| view! { cx, <Oauth/> }/>
                     <Route path="account/logout/" view=|cx| view! { cx, <Logout/> }/>
+                    <Route path="account/forgot-username/" view=|cx| view! { cx, <ForgotUsername/> }/>
                     <Route path="account/password-reset/" view=|cx| view! { cx, <PasswordReset/> }/>
                     <Route path="account/password-reset-token/:uid/:token/" view=|cx| view! { cx, <PasswordResetToken/> }/>
 
